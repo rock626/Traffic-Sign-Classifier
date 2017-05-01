@@ -170,6 +170,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
+I chose these images such that they are different from each other, for example i have chosen only one from speed limits.Images are not of good quality, blurred images, especially bicycles crossing image.Also color format are different even though this doesnt have impact on the model.
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -233,6 +234,8 @@ For the 5th image :
 | 2.58285741e-06  		| Slippery Road						|
 | 1.51305757e-09	    | Pedestrians					    |
 | 6.24303872e-11		| Beware of ice/snow      			|
+
+
 
 
 
