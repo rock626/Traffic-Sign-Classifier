@@ -186,10 +186,8 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 94.4%
 
-####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-
-
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+####3. 
+The top five soft max probabilities were
 
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------:| 
@@ -200,9 +198,6 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 2.97234182e-10		| Beware of ice/snow      			|
 
 For the second image :
-[  1.00000000e+00   1.63148428e-08   2.79152504e-12   8.38247765e-13
-    2.74561342e-14]
-     [33  4 39 14 15]
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------:| 
 | 1.00000000e+00        | Turn Right Ahead  	            | 
@@ -212,9 +207,6 @@ For the second image :
 | 2.74561342e-14		| No vehicles     			        |
 
 For the 3rd image :
- [  9.61254418e-01   1.90812889e-02   8.95221811e-03   7.05635175e-03
-    1.44423067e-03]
- [ 1 31 14  0 38]  
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------:| 
 | 9.61254418e-01        | Speed limit 30  	                | 
@@ -225,8 +217,6 @@ For the 3rd image :
 
     
 For the 4th image :
-[35  3 36 34 13]
-
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------:| 
 | 1.00000000e+00        | Ahead only  	                    | 
@@ -236,7 +226,6 @@ For the 4th image :
 | 3.20793773e-19		| Yield     			            |
     
 For the 5th image :
-[28 20 23 27 30]
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------:| 
 | 9.99613106e-01        | Children crossing  	            | 
