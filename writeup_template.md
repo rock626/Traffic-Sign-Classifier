@@ -1,6 +1,7 @@
 **Traffic Sign Recognition** 
 ---
 **Build a Traffic Sign Recognition Project**
+
 The goals / steps of this project are the following:
 * Load the data set 
 * Explore, summarize and visualize the data set
@@ -21,11 +22,7 @@ The goals / steps of this project are the following:
 [image7]: ./testdata/image4.jpg  "Traffic Sign 4"
 [image8]: ./testdata/image5.jpg  "Traffic Sign 5"
 
-## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
 ---
-You're reading it! and here is a link to my [project code](https://github.com/rock626/project2)
 
 ###Data Set Summary & Exploration
 
@@ -45,8 +42,6 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 Design and Test a Model Architecture
 
-####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
-
 As a first step, I decided to convert the images to grayscale because color plays a very minor role in classifying traffic signs.For example, in case of speed limit 30, network needs to determine the number whether its color is red or blue or green.By converting to grayscale, we are reducing the number of channels and providing a 2D input instead of 3D.
 
 Here is an example of a traffic sign image before and after grayscaling.
@@ -62,8 +57,6 @@ To add more data to the the data set, I used the following techniques: rotation,
 Here is an example of an original image and an augmented image:
 
 ![alt text][image3]
-
-####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:
 
@@ -87,17 +80,12 @@ My final model consisted of the following layers:
 | Softmax				|         									    |
  
 
-
-####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-
 To train the model, I used following hyper parameters
 Adam optimizer
 batch size :128
 EPOCHS : 30
 learning rate : 0.001
 drop out probaility : 0.6
-
-####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
 * training set accuracy of 94.8%
@@ -172,7 +160,6 @@ Here are five German traffic signs that I found on the web:
 
 I chose these images such that they are different from each other, for example i have chosen only one from speed limits.Images are not of good quality, blurred images, especially bicycles crossing image.Also color format are different even though this doesnt have impact on the model.
 
-####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
