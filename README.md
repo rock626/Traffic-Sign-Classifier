@@ -1,16 +1,18 @@
 # Traffic-Sign-Classifier 
 
-Classify traffic signs by implementing LeNet-5 architecture using TensorFlow
+Classify traffic signs using CNNs
 
-This also shows the data augmentation techniques to avoid overfitting.
+## Using Tensorflow and data augmentation
+As part of Udacity's Self Driving Car Nanodegree, implement LeNet5 model using Tensorflow. This also demonstrates the data augmentation techniques used to avoid overfitting.
 
-# Steps:
+## Keras - Finetuning VGG
+Used Keras with backend as tensorflow.
 
-1. Dataset summary & Exploration
-2. Design and test LeNet-5 model
-3. Test the model on new images
+This demonstrates how one can easily use keras pretrained models with weights.A lot of time was spent in earlier version while using Tensorflow directly and also defining data augmentation methods.
 
-# Metrics:
-Test Accuracy - 94.3%
-Test Accuracy for new web images - 80%
+Used Keras ImageDataGenerator and finetuned VGG model by adding dense layer as the last layer.
+
+This project also demonstrates on using keras save and load models.
+
+Even though there was little difference in the accuracies in both methods, it can easily improved by experimenting with other imagenet models too by using Keras.
 
