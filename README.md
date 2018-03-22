@@ -6,7 +6,7 @@ Classify traffic signs using CNNs
 
 As part of [Udacity's Self Driving Car Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013), implement LeNet5 model using Tensorflow. This also demonstrates the data augmentation techniques used to avoid overfitting.
 
-## Keras - Finetuning VGG - [Approach 2](Traffic_Sign_Classifier with Keras.ipynb)
+## Keras - Finetuning VGG - [Approach 2](Traffic Sign Classifier with Keras.ipynb)
  - Keras with backend as tensorflow.
 A lot of time was spent in earlier version while using Tensorflow directly and also defining data augmentation methods.This project demonstrates how one can easily use pretrained models in keras.
 
